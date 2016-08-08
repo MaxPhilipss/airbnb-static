@@ -1,0 +1,40 @@
+anne:
+  owner_name: Anne Gentillet
+  picture: images/card-brussels.jpeg
+  owner_picture: images/anne.jpg
+  name: Annes'home
+  summary: Venez danser dans les meilleurs clubs du monde
+  city: Brussels, Belgium
+  wifi: true
+seb:
+  owner_name: Sebastien Saunier
+  picture: images/card-paris.jpg
+  owner_picture: images/seb.jpg
+  name: Seb's home
+  summary: Venez jouer à Counter-Strike en fibre optique
+  city: Paris, France
+  wifi: true
+romain:
+  owner_name: Romain Paillard
+  picture: images/card-london.jpeg
+  owner_picture: images/romain.jpg
+  name: Romain's home
+  summary: Venez detester le sport avec moi
+  city: London, UK
+  wifi: false
+max:
+  owner_name: Maximilien Philips
+  picture: images/max-flat.jpg
+  owner_picture: images/max.jpg
+  name: Max's home
+  summary: Awesome studio in Brussels
+  city: Bucarest, Roumanie
+  wifi: true
+Dean:
+  owner_name: Dean "the fly"
+  picture: images/shelter.jpg
+  owner_picture: images/dean.jpg
+  name: Dean's lovely place
+  summary: under the bridge
+  city: we don't know
+  wifi: false
