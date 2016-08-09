@@ -1,5 +1,5 @@
 <!--
-<% flat = data.flats[owner] %>
+<% flat #= data.flats[owner] %>
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path flat.flat_picture %>'); height:30vh; background-position: center;">
 </div>
@@ -9,13 +9,13 @@
     <div class="col-xs-12 col-sm-6 col-sm-offset-1">
       <div class="card-profile">
         <div class="card-profile-picture">
-          <%= image_tag flat.owner_picture, class: "img-circle", width: "150px" %>
+          <%= image_tag flat.owner_picture, #class: "img-circle", width: "150px" %>
           <p> <%= flat.name %> </p>
         </div>
         <div class="card-profile-details">
         <h1><%=flat.title%></h1>
         <p><%flat.city%></p>
-        <%flat.rating.times do %>
+        <%flat.rating.times #do %>
 
         </div>
       </div>
